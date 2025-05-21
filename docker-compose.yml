@@ -1,0 +1,22 @@
+services:
+  backend:
+    build: 
+      context: ./Backend
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGODB_URI=mongodb+srv://raihanmustofa11656:SIPk2OqUgFWNT8Tu@cluster0.0wqixbc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      - PORT=3000
+      - FRONTEND_URL=http://localhost:80
+
+  frontend:
+    build:
+      context: ./Frontend
+    restart: always
+    ports:
+      - "80:80"
+    environment:
+      - VITE_API_BASE_URL=http://localhost:3000/api
+    depends_on:
+      - backend
