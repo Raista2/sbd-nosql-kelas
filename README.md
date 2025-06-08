@@ -204,6 +204,17 @@ Aplikasi akan tersedia di:
 - Manajemen variabel lingkungan
 - Validasi dan sanitasi input
 
+## Screenshot Page
+- Home Page
+![HomePage](https://hackmd.io/_uploads/Hyx0FXmmxe.png)
+- Register Page
+![RegisterPage](https://hackmd.io/_uploads/SkeCFXXmxx.png)
+- Login Page
+![Login Page](https://hackmd.io/_uploads/BJlCYQmmel.png)
+- Gacha Page
+![Select Banner](https://hackmd.io/_uploads/B1gCFmQQle.png)
+![Pull button dan penyimpanan kode](https://hackmd.io/_uploads/HJlAYmQ7ex.png)
+
 ## ⚠️ Pertimbangan Produksi
 
 1. Implementasi hash kata sandi yang tepat menggunakan bcrypt
