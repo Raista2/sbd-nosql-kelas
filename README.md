@@ -1,4 +1,9 @@
-# Sistem Permainan Gacha Fate
+# Sistem Simulasi Gacha
+
+## K2 Group 16 :
+- Salim (2306204604)
+- Muhammad Raihan Mustofa (2306161946)
+- Rowen Rodotua Harahap (2306260604)
 
 Aplikasi web *full-stack* yang mengimplementasikan sistem permainan gacha bertema Fate dengan fitur autentikasi pengguna, pull karakter, dan penyimpanan karakter.
 
